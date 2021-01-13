@@ -1,0 +1,17 @@
+var food = "Ramen";
+var isDelicious = true;
+
+food = "Burrito";
+
+var num2 = 4;
+var num7 = 10;
+
+(num7 / num2);
+var quotient = 3.5
+
+var songs = ["song1", "song2", "song3"];
+songs.shift();
+console.log(songs);
+
+var food = ("Ramen");
+console.log(food.length);
