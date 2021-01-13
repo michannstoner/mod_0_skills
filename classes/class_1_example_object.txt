@@ -1,0 +1,13 @@
+Ramen
+
+Attributes-
+isAvailable = true
+substitutionsAvailable = false
+foodType = "Noodles and broth"
+foodPrice = 8.50
+
+Methods-
+changeAvailability = changes isAvailable to false once sold out
+makeSubstitution = informs customer substitutions are not available for this, keeps substitutionsAvailable false
+displayFoodType = shows the foodType on menu as "Ramen- Noodles and broth"
+addFoodTotal = adds foodPrice 8.50 with the rest of items ordered
