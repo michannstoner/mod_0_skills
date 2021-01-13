@@ -1,0 +1,14 @@
+Class -
+Food
+
+Attributes-
+isAvailable (boolean)
+substitutionsAvailable (boolean)
+foodType ("string")
+foodPrice (float)
+
+Methods-
+changeAvailability - (changes the isAvailable attribute)
+makeSubstitution - (changes the substitutionsAvailable attribute)
+displayFoodType - (shows the name of the foodType on the menu)
+addFoodTotal - (adds each foodPrice to make a total)
