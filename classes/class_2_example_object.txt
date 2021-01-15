@@ -1,14 +1,14 @@
-Class-
-Michann
+Class- Employee
+Instance - Michann
 
 Attributes-
-name ("Michann Stoner")
-availability (["Monday", "Wednesday", "Friday"])
-birthday ("01/08/1994")
+name = ("Michann Stoner")
+availability = (["Monday", "Wednesday", "Friday"])
+birthday = ("01/08/1994")
 isTrained = false
 
 Methods-
-showEmployee = displays the employee name "Michann Stoner"
+showName = displays the employee name "Michann Stoner"
 updateAvailability = changes availabilty to ["Tuesday", "Thursday", "Saturday"]
 sendBirthdayMessage = sends "Happy Birthday" on birthday "01/08/1994"
-scheduleFirstShift = changes isTrained to true, and schedules first scheduleFirstShift
+scheduleFirstShift = changes isTrained to true, and schedules first shift
