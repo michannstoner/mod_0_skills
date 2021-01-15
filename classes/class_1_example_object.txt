@@ -2,12 +2,12 @@ Ramen
 
 Attributes-
 isAvailable = true
-substitutionsAvailable = false
-foodType = "Noodles and broth"
-foodPrice = 8.50
+isEaten = false
+type = "Noodles and broth"
+price = 8.50
 
 Methods-
 changeAvailability = changes isAvailable to false once sold out
-makeSubstitution = informs customer substitutions are not available for this, keeps substitutionsAvailable false
-displayFoodType = shows the foodType on menu as "Ramen- Noodles and broth"
-addFoodTotal = adds foodPrice 8.50 with the rest of items ordered
+consumeDish = changes isEaten to true once the customer has eaten
+displayType = shows the foodType on menu as "Ramen- Noodles and broth"
+showTotal = displays price 8.50 on menu 

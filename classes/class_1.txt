@@ -3,12 +3,12 @@ Food
 
 Attributes-
 isAvailable (boolean)
-substitutionsAvailable (boolean)
-foodType ("string")
-foodPrice (float)
+isEaten (boolean)
+type ("string")
+price (float)
 
 Methods-
 changeAvailability - (changes the isAvailable attribute)
-makeSubstitution - (changes the substitutionsAvailable attribute)
-displayFoodType - (shows the name of the foodType on the menu)
-addFoodTotal - (adds each foodPrice to make a total)
+consumeDish - (changes the isEaten attribute)
+displayType - (shows the name of the type on the menu)
+showTotal - (shows the price of the item)

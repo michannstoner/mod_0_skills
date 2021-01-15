@@ -8,7 +8,7 @@ birthday ("string")
 isTrained (boolean)
 
 Methods-
-addNewEmployee (uses the name attribute to add a new hire)
+showEmployee (uses the name attribute to display employee name)
 updateAvailability (changes the availability array)
 sendBirthdayMessage (sends a message using birthday attribute)
 scheduleFirstShift (changes isTrained attribute to true, schedules shift)
