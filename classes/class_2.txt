@@ -3,7 +3,7 @@ Employee
 
 Attributes-
 name ("string")
-availability (array)
+availability ([array])
 birthday ("string")
 isTrained (boolean)
 
